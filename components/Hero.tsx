@@ -29,9 +29,9 @@ const Hero: React.FC = () => {
             </div>
 
             <h1 className='text-6xl md:text-8xl lg:text-9xl font-black tracking-tighter text-white leading-[0.9] mb-8'>
-              FULL STACK
+              AI ENGINEER
               <br />
-              <span className='text-outline'>AI ENGINEER</span>
+              <span className='text-outline'>FULL STACK</span>
             </h1>
 
             <p className='font-mono text-zinc-400 text-sm md:text-base max-w-xl leading-relaxed mb-10 border-l-2 border-brand-300 pl-6'>
