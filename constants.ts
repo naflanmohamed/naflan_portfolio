@@ -17,7 +17,7 @@ export const HERO_CONTENT = {
 
 export const ABOUT_CONTENT = {
   title: "About Me",
-  text: `I'm a Full Stack AI Engineer who enjoys turning messy, real-world problems into clean, working systems.
+  text: `I'm a AI Engineer who enjoys turning messy, real-world problems into clean, working systems.
 
 On the frontend, I build with React, focusing on interfaces that feel intuitive rather than just functional. On the backend, I work across Node.js/Express and Python (FastAPI), often building AI-powered features like RAG pipelines and LLM integrations rather than just standard CRUD APIs.
 
@@ -30,11 +30,19 @@ Outside of coding, I like studying design systems and refining the small details
 };
 
 export const EXPERIENCES: ExperienceItem[] = [
+    {
+    id: 1,
+    role: "AI/ML Intern",
+    company: "NETSOL Technologies",
+    period: "July 2026 - Present",
+    description: "Developed and deployed AI-powered solutions, including a RAG-based document chatbot and an AI-driven tourism platform, enhancing user engagement and operational efficiency. Implemented machine learning models for predictive analytics, improving decision-making processes.",
+    technologies: ["Python", "FastAPI", "LangChain", "OpenAI API", "Pinecone", "ChromaDB", "RAG", "LLM"]
+  },
   {
     id: 1,
     role: "MERN Stack Developer Intern",
     company: "Fluxxion",
-    period: "Jun 2025 — Aug 2025",
+    period: "Jun 2025 - Aug 2025",
     description: "Built responsive React UIs improving page performance by 40% and reducing UI bugs by 30%, including high performance modules such as a scalable Daily Goals Tracker.",
     technologies: ["React", "Node.js", "Git/GitHub"]
   },
@@ -100,19 +108,19 @@ export const SKILLS: SkillCategory[] = [
   {
     name: "AI & Machine Learning",
     icon: BrainCircuit,
-    skills: ["Python", "FastAPI", "LangChain", "OpenAI API", "RAG Pipelines", "Pinecone", "ChromaDB"]
+    skills: ["Python", "FastAPI", "LangChain", "LangGraph", "RAG", "Transformers", "OpenAI API", "RAG Pipelines", "Pinecone", "ChromaDB", ]
   },
   {
     
     name: "Frontend Development",
     icon: Layout,
-    skills: ["React", "Next.js", "TypeScript", "JavaScript", "Tailwind CSS", "Vite", "HTML", "CSS"]
+    skills: ["React", "JavaScript", "Tailwind CSS", "Vite",]
   },
   
   {
     name: "Backend Architecture",
     icon: Server,
-    skills: ["Node.js", "Express", "PostgreSQL", "REST APIs", "Passport.js"]
+    skills: ["Node.js", "PostgreSQL", "REST APIs", "Passport.js"]
   },
   {
     name: "Tools & DevOps",
