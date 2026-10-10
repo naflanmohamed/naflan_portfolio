@@ -81,11 +81,11 @@ const Hero: React.FC = () => {
                 </div>
                 <div className='flex justify-between'>
                   <span>STACK</span>
-                  <span className='text-white'>AI/ML - FS</span>
+                  <span className='text-white'>AI / FULL STACK</span>
                 </div>
                 <div className='flex justify-between'>
                   <span>PROJECTS</span>
-                  <span className='text-white'>6+ SHIPPED</span>
+                  <span className='text-white'>10+ SHIPPED</span>
                 </div>
               </div>
 

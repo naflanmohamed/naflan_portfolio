@@ -12,47 +12,47 @@ export const HERO_CONTENT = {
   greeting: "Hello, I'm",
   name: "Naflan Mohamed",
   title: "AI Engineer - Full Stack",
-  description: "I build accessible, pixel-perfect, secure, and performant web applications with a focus on exceptional user experiences using modern AI and full-stack technologies.",
+  description: "I build AI-powered products and scalable web experiences that combine clean engineering, strong product thinking, and measurable business impact. From intelligent user interfaces to production-ready backend systems, I turn ideas into polished digital experiences.",
 };
 
 export const ABOUT_CONTENT = {
   title: "About Me",
-  text: `I'm a AI Engineer who enjoys turning messy, real-world problems into clean, working systems.
+  text: `I'm an AI Engineer and Full-Stack Developer focused on building products that blend intelligent systems with thoughtful user experiences.
 
-On the frontend, I build with React, focusing on interfaces that feel intuitive rather than just functional. On the backend, I work across Node.js/Express and Python (FastAPI), often building AI-powered features like RAG pipelines and LLM integrations rather than just standard CRUD APIs.
+I work across the full stack — from modern React interfaces to Python and Node.js backends — and I enjoy turning complex ideas into reliable, high-impact solutions. My work spans AI-powered chat systems, document intelligence, recommendation flows, and workflow automation designed to make real operations faster, smarter, and more efficient.
 
-Outside of coding, I like studying design systems and refining the small details that make a product feel polished instead of generic.`,
+I care deeply about product quality, performance, and clarity. I build systems that are easy to use, easy to scale, and grounded in real-world value, not just technical complexity.`,
   stats: [
     { label: "Years Experience", value: "2+" },
-    { label: "Projects Completed", value: "6+" },
-    // { label: "Happy Clients", value: "15+" },
+    { label: "AI + Web Projects", value: "10+" },
+    { label: "Impact-Driven Builds", value: "100%" },
   ]
 };
 
 export const EXPERIENCES: ExperienceItem[] = [
-    {
-    id: 1,
-    role: "AI/ML Intern",
-    company: "NETSOL Technologies",
-    period: "July 2026 - Present",
-    description: "Developed and deployed AI-powered solutions, including a RAG-based document chatbot and an AI-driven tourism platform, enhancing user engagement and operational efficiency. Implemented machine learning models for predictive analytics, improving decision-making processes.",
-    technologies: ["Python", "FastAPI", "LangChain", "OpenAI API", "Pinecone", "ChromaDB", "RAG", "LLM"]
-  },
   {
     id: 1,
-    role: "MERN Stack Developer Intern",
-    company: "Fluxxion",
-    period: "Jun 2025 - Aug 2025",
-    description: "Built responsive React UIs improving page performance by 40% and reducing UI bugs by 30%, including high performance modules such as a scalable Daily Goals Tracker.",
-    technologies: ["React", "Node.js", "Git/GitHub"]
+    role: "AI/ML Engineer Intern",
+    company: "NETSOL Technologies",
+    period: "July 2026 - Sep 2026",
+    description: "Built and deployed AI-powered products using FastAPI, LangChain, RAG pipelines, and vector search to create document intelligence and recommendation experiences that improved user engagement and operational efficiency. Worked across model integration, backend APIs, and product-ready features for real-world use cases.",
+    technologies: ["Python", "FastAPI", "LangChain", "LangGraph", "OpenAI API", "Gemini API", "Pinecone", "ChromaDB", "RAG", "LLM", "AI Product Development"]
   },
   {
     id: 2,
+    role: "MERN Stack Developer Intern",
+    company: "Fluxxion",
+    period: "Jun 2025 - Aug 2025",
+    description: "Developed responsive React applications and scalable frontend modules focused on usability, performance, and maintainability. Improved user flows, reduced UI issues, and collaborated on high-impact product features that made business workflows smoother and more efficient.",
+    technologies: ["React", "Node.js", "Express.js", "Git/GitHub", "Responsive UI", "Frontend Architecture"]
+  },
+  {
+    id: 3,
     role: "Web Developer Intern",
     company: "CArtificial Intelligence Community of Pakistan (AICP)",
-    period: "Mar 2024 — Jun 2024",
-    description: "Delivered 5+ production ready web apps, increasing form submission accuracy by 60%. Refactored frontend codebases to ensure mobile responsiveness, significantly improving the user experience across varying device sizes.",
-    technologies: ["HTML", "CSS", "JavaScript", "Git/GitHub"]
+    period: "Mar 2024 - Jun 2024",
+    description: "Delivered 5+ production-ready web applications with a strong focus on responsive design, UX quality, and conversion-friendly interfaces. Refactored frontend experiences to improve usability, mobile responsiveness, and overall product polish across multiple client-facing projects.",
+    technologies: ["HTML", "CSS", "JavaScript", "React", "Git/GitHub", "Responsive Design", "UI Development"]
   },
 ];
 
@@ -108,24 +108,22 @@ export const SKILLS: SkillCategory[] = [
   {
     name: "AI & Machine Learning",
     icon: BrainCircuit,
-    skills: ["Python", "FastAPI", "LangChain", "LangGraph", "RAG", "Transformers", "OpenAI API", "RAG Pipelines", "Pinecone", "ChromaDB", ]
+    skills: ["Python", "FastAPI", "LangChain", "LangGraph", "RAG", "Prompt Engineering", "OpenAI API", "Gemini API", "Pinecone", "ChromaDB", "Vector Search", "Document Intelligence"]
   },
   {
-    
     name: "Frontend Development",
     icon: Layout,
-    skills: ["React", "JavaScript", "Tailwind CSS", "Vite",]
+    skills: ["React", "Next.js", "TypeScript", "JavaScript", "Tailwind CSS", "Vite", "Responsive UI", "UX-Focused Frontends"]
   },
-  
   {
     name: "Backend Architecture",
     icon: Server,
-    skills: ["Node.js", "PostgreSQL", "REST APIs", "Passport.js"]
+    skills: ["Node.js", "Express.js", "REST APIs", "PostgreSQL", "MongoDB", "Supabase", "Authentication", "Scalable APIs", "System Design"]
   },
   {
     name: "Tools & DevOps",
     icon: Wrench,
-    skills: ["Git/GitHub", "Docker", "CI/CD", "GCP Cloud Run", "Postman"]
+    skills: ["Git/GitHub", "Docker", "CI/CD", "GCP Cloud Run", "Vercel", "Postman", "Agile Workflows", "Product Delivery"]
   }
 ];
 
