@@ -104,49 +104,98 @@ export const CERTIFICATIONS: CertificationItem[] = [
 
 ];
 
+
 export const SKILLS: SkillCategory[] = [
   {
-    name: "AI & Machine Learning",
+    name: "AI Engineering & LLMs",
     icon: BrainCircuit,
     skills: [
-      "Python", "Java", "JavaScript", "C++",
-      "LLM Applications", "RAG", "LangChain", "LangGraph", "Gemini API",
-      "AI Agents", "Agentic Workflows", "Tool Calling", "Function Calling",
-      "Prompt Engineering", "Model Context Protocol (MCP)",
-      "Scikit-learn", "TensorFlow", "Classification", "Regression",
-      "Clustering", "Recommender Systems", "Neural Networks",
-      "Sentence Transformers", "Embeddings", "Semantic Search",
-      "Vector Search", "HNSW Indexing"
+      "LLM Applications",
+      "Retrieval-Augmented Generation (RAG)",
+      "AI Agents",
+      "Agentic Workflows",
+      "LangChain",
+      "LangGraph",
+      "Prompt Engineering",
+      "Tool Calling",
+      "Model Context Protocol (MCP)",
+      "Gemini API",
+      "Groq API",
+      "Embeddings",
+      "Semantic Search",
+      "Vector Search",
+      "Sentence Transformers"
     ]
   },
   {
-    name: "Backend & APIs",
+    name: "Machine Learning",
+    icon: BrainCircuit,
+    skills: [
+      "Scikit-learn",
+      "Supervised Learning",
+      "Classification",
+      "Regression",
+      "Clustering",
+      "Neural Networks",
+      "Recommender Systems",
+      "Model Evaluation",
+      "Feature Engineering",
+      "HNSW Indexing"
+    ]
+  },
+  {
+    name: "Backend & Data Engineering",
     icon: Server,
     skills: [
-      "FastAPI", "Django REST Framework", "REST APIs",
-      "Asynchronous Programming", "Authentication", "Webhooks",
-      "Node.js", "Express.js", "Next.js", "PostgreSQL", "pgvector",
-      "Redis", "Supabase", "MongoDB", "ChromaDB", "SQL"
+      "Python",
+      "FastAPI",
+      "Django REST Framework",
+      "REST API Development",
+      "SQL",
+      "PostgreSQL",
+      "pgvector",
+      "Redis",
+      "Supabase",
+      "MongoDB",
+      "ChromaDB",
+      "Asynchronous Programming",
+      "Authentication & Authorization"
     ]
   },
   {
-    name: "Frontend / Cloud",
+    name: "Frontend & Application Development",
     icon: Layout,
     skills: [
-      "React.js", "Next.js", "Node.js", "HTML", "CSS",
-      "JavaScript", "Tailwind CSS", "Vite", "Docker",
-      "Kubernetes", "Google Cloud Platform (GCP)", "Responsive UI"
+      "JavaScript",
+      "TypeScript",
+      "React.js",
+      "Next.js",
+      "Node.js",
+      "Express.js",
+      "HTML5",
+      "CSS3",
+      "Tailwind CSS",
+      "Responsive UI Development"
     ]
   },
   {
-    name: "Computer Science",
+    name: "DevOps & Software Engineering",
     icon: Wrench,
     skills: [
-      "Object-Oriented Programming (OOP)", "Data Structures & Algorithms",
-      "Problem Solving", "System Design", "Software Engineering Fundamentals"
+      "Git",
+      "GitHub",
+      "Docker",
+      "CI/CD Fundamentals",
+      "Cloud Deployment",
+      "Object-Oriented Programming",
+      "Data Structures & Algorithms",
+      "Software Testing",
+      "Debugging",
+      "System Design Fundamentals"
     ]
   }
 ];
+
 
 export const PROJECTS: Project[] = [
   {
