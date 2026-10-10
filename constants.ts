@@ -11,7 +11,7 @@ export const NAV_ITEMS: NavItem[] = [
 export const HERO_CONTENT = {
   greeting: "Hello, I'm",
   name: "Naflan Mohamed",
-  title: "AI Engineer - Full Stack",
+  title: "AI/ML Engineer",
   description: "I build AI-powered products and scalable web experiences that combine clean engineering, strong product thinking, and measurable business impact. From intelligent user interfaces to production-ready backend systems, I turn ideas into polished digital experiences.",
 };
 
@@ -19,7 +19,7 @@ export const ABOUT_CONTENT = {
   title: "About Me",
   text: `I'm an AI Engineer and Full-Stack Developer focused on building products that blend intelligent systems with thoughtful user experiences.
 
-I work across the full stack — from modern React interfaces to Python and Node.js backends — and I enjoy turning complex ideas into reliable, high-impact solutions. My work spans AI-powered chat systems, document intelligence, recommendation flows, and workflow automation designed to make real operations faster, smarter, and more efficient.
+I work across the full stack - from modern React interfaces to Python and Node.js backends - and I enjoy turning complex ideas into reliable, high-impact solutions. My work spans AI-powered chat systems, document intelligence, recommendation flows, and workflow automation designed to make real operations faster, smarter, and more efficient.
 
 I care deeply about product quality, performance, and clarity. I build systems that are easy to use, easy to scale, and grounded in real-world value, not just technical complexity.`,
   stats: [
@@ -59,7 +59,7 @@ export const EXPERIENCES: ExperienceItem[] = [
 export const EDUCATION: EducationItem[] = [
   {
     id: 1,
-    degree: "BS(Hons) in Computer Science",
+    degree: "Bachelor of Computer Science (Hons)",
     institution: "Government College University - Lahore.",
     year: "2022 - 2026"
   },
@@ -264,28 +264,6 @@ export const PROJECTS: Project[] = [
     category: "Website",
     year: "2025"
   },
-  {
-    id: 7,
-    title: "Interstellar Link",
-    description: "Interstellar Link is an single-page concept website for a futuristic space travel agency. It features a high-performance HTML5 Canvas starfield, interactive particle effects, and a CSS-only 3D planet simulation.",
-    tech: ["HTML5", "CSS3", "JavaScript", "Tailwind CSS", "Canvas API 2D"],
-    link: "https://naflanmohamed.github.io/Interstellar-Link/#",
-    github: "https://github.com/naflanmohamed/Interstellar-Link",
-    image: "/assets/images/interstellarlink.webp",
-    category: "Website",
-    year: "2025"
-  },
-  {
-    id: 8,
-    title: "SkyCast Weather App",
-    description: "SkyCast is a responsive and user-friendly weather application. It fetches real-time weather data and displays it with a clean, modern interface.",
-    tech: ["HTML", "CSS", "JavaScript", "OpenWeatherMap API"],
-    link: "https://naflanmohamed.github.io/SkyCast-Weather-App/",
-    github: "https://github.com/naflanmohamed/SkyCast-Weather-App",
-    image: "/assets/images/skycastweatherapp.webp",
-    category: "Website",
-    year: "2024"
-  }
 ];
 
 export const SOCIALS: SocialLink[] = [
