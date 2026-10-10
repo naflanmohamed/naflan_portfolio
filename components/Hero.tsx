@@ -31,7 +31,7 @@ const Hero: React.FC = () => {
             <h1 className='text-6xl md:text-8xl lg:text-9xl font-black tracking-tighter text-white leading-[0.9] mb-8'>
               AI ENGINEER
               <br />
-              <span className='text-outline'>FULL STACK</span>
+              <span className='text-outline'>SOFTWARE ENGINEER</span>
             </h1>
 
             <p className='font-mono text-zinc-400 text-sm md:text-base max-w-xl leading-relaxed mb-10 border-l-2 border-brand-300 pl-6'>
@@ -81,11 +81,11 @@ const Hero: React.FC = () => {
                 </div>
                 <div className='flex justify-between'>
                   <span>STACK</span>
-                  <span className='text-white'>AI / FULL STACK</span>
+                  <span className='text-white'>AI / ML</span>
                 </div>
                 <div className='flex justify-between'>
                   <span>PROJECTS</span>
-                  <span className='text-white'>10+ SHIPPED</span>
+                  <span className='text-white'>5+ SHIPPED</span>
                 </div>
               </div>
 

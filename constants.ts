@@ -108,29 +108,60 @@ export const SKILLS: SkillCategory[] = [
   {
     name: "AI & Machine Learning",
     icon: BrainCircuit,
-    skills: ["Python", "FastAPI", "LangChain", "LangGraph", "RAG", "Prompt Engineering", "OpenAI API", "Gemini API", "Pinecone", "ChromaDB", "Vector Search", "Document Intelligence"]
+    skills: [
+      "Python", "Java", "JavaScript", "C++",
+      "LLM Applications", "RAG", "LangChain", "LangGraph", "Gemini API",
+      "AI Agents", "Agentic Workflows", "Tool Calling", "Function Calling",
+      "Prompt Engineering", "Model Context Protocol (MCP)",
+      "Scikit-learn", "TensorFlow", "Classification", "Regression",
+      "Clustering", "Recommender Systems", "Neural Networks",
+      "Sentence Transformers", "Embeddings", "Semantic Search",
+      "Vector Search", "HNSW Indexing"
+    ]
   },
   {
-    name: "Frontend Development",
-    icon: Layout,
-    skills: ["React", "Next.js", "TypeScript", "JavaScript", "Tailwind CSS", "Vite", "Responsive UI", "UX-Focused Frontends"]
-  },
-  {
-    name: "Backend Architecture",
+    name: "Backend & APIs",
     icon: Server,
-    skills: ["Node.js", "Express.js", "REST APIs", "PostgreSQL", "MongoDB", "Supabase", "Authentication", "Scalable APIs", "System Design"]
+    skills: [
+      "FastAPI", "Django REST Framework", "REST APIs",
+      "Asynchronous Programming", "Authentication", "Webhooks",
+      "Node.js", "Express.js", "Next.js", "PostgreSQL", "pgvector",
+      "Redis", "Supabase", "MongoDB", "ChromaDB", "SQL"
+    ]
   },
   {
-    name: "Tools & DevOps",
+    name: "Frontend / Cloud",
+    icon: Layout,
+    skills: [
+      "React.js", "Next.js", "Node.js", "HTML", "CSS",
+      "JavaScript", "Tailwind CSS", "Vite", "Docker",
+      "Kubernetes", "Google Cloud Platform (GCP)", "Responsive UI"
+    ]
+  },
+  {
+    name: "Computer Science",
     icon: Wrench,
-    skills: ["Git/GitHub", "Docker", "CI/CD", "GCP Cloud Run", "Vercel", "Postman", "Agile Workflows", "Product Delivery"]
+    skills: [
+      "Object-Oriented Programming (OOP)", "Data Structures & Algorithms",
+      "Problem Solving", "System Design", "Software Engineering Fundamentals"
+    ]
   }
 ];
 
 export const PROJECTS: Project[] = [
-  
   {
     id: 1,
+    title: "AI ChatAgent Workspace",
+    description: "An intelligent AI agent workspace that combines LLM-powered conversations, Retrieval-Augmented Generation (RAG), web search, and external tool integrations. Built with LangGraph to orchestrate agent workflows, it supports document question answering, Gmail and Google Calendar integration, secure user authentication, and Model Context Protocol (MCP) tools for extending AI capabilities.",
+    tech: ["React", "Python", "FastAPI", "LangChain", "LangGraph", "Gemini API", "Groq API", "PostgreSQL", "Supabase", "pgvector", "Redis", "MCP", "RAG", "LLM", "AI Agents", "Tool Calling", "Function Calling", "GCP"],
+    link: "https://chattingagent.vercel.app/",
+    github: "https://github.com/naflanmohamed/ChatAgent",
+    image: "/assets/images/chatagent.png",
+    category: "AI/ML",
+    year: "2026"
+  },
+  {
+    id: 2,
     title: "DocChat - Chat with Documents",
     description: "An AI-powered document chatbot that lets users upload files and ask natural language questions about their content. Uses RAG (Retrieval-Augmented Generation) to fetch relevant context before generating accurate, source-grounded answers instead of hallucinated responses.",
     tech: ["Next.js", "FastAPI", "LangChain", "OpenAI API", "Gemini API", "GrokAPI" , "Pinecone", "Tailwind CSS"],
@@ -141,18 +172,18 @@ export const PROJECTS: Project[] = [
     year: "2026"
   },
   {
-  id: 2,
-  title: "Yaloo",
-  description: "An AI-powered community-based tourism platform that connects solo and budget tourists with verified local guides and village hosts for authentic cultural immersion. Uses AI matching to recommend guides and experiences based on tourist preferences, computer vision for ID verification, and NLP-driven review analysis, all while supporting local economies through homestays and off-the-beaten-path experiences.",
-  tech: ["Flutter", "Django REST Framework", "Supabase", "PostgreSQL", "Redis", "Celery", "Gemini API", "scikit-learn", "spaCy", "OpenCV", "Stripe"],
-  link: "https://github.com/yaloolk/yaloo",
-  github: "https://github.com/yaloolk/yaloo",
-  image: "/assets/images/tourist-interface-1.jpg",
-  category: "Mobile APP / AI/ML",
-  year: "2026"
+    id: 3,
+    title: "Yaloo",
+    description: "An AI-powered community-based tourism platform that connects solo and budget tourists with verified local guides and village hosts for authentic cultural immersion. Uses AI matching to recommend guides and experiences based on tourist preferences, computer vision for ID verification, and NLP-driven review analysis, all while supporting local economies through homestays and off-the-beaten-path experiences.",
+    tech: ["Flutter", "Django REST Framework", "Supabase", "PostgreSQL", "Redis", "Celery", "Gemini API", "scikit-learn", "spaCy", "OpenCV", "Stripe"],
+    link: "https://github.com/yaloolk/yaloo",
+    github: "https://github.com/yaloolk/yaloo",
+    image: "/assets/images/tourist-interface-1.jpg",
+    category: "Mobile APP / AI/ML",
+    year: "2026"
   },
   {
-    id: 3,
+    id: 4,
     title: "Vehicle Rental Platform",
     description: "A vehicle rental platform that allows users to browse available vehicles, view detailed information, and book easily. and includes admin features to manage fleet inventory, and update vehicle data.",
     tech: ["React.js", "Node.js", "Express.js", "MongoDB", "Tailwind CSS", "GitHub", "Vercel"],
@@ -163,7 +194,7 @@ export const PROJECTS: Project[] = [
     year: "2025"
   },
   {
-    id: 4,
+    id: 5,
     title: "AI Study Hub",
     description: "AI Study Hub helps students save time by using AI tools for summarizing, note generation, and quick learning support all in one simple interface.",
     tech: ["React.js", "Tailwind", "Gemini API",],
@@ -174,7 +205,7 @@ export const PROJECTS: Project[] = [
     year: "2025"
   },
   {
-    id: 5,
+    id: 6,
     title: "Expense Tracker",
     description: "Expense Tracker is a web application that allows users to track their expenses and manage their budgets.",
     tech: ["HTML", "CSS", "JavaScript", "Bootstrap", "Chart.js"],
@@ -185,7 +216,7 @@ export const PROJECTS: Project[] = [
     year: "2025"
   },
   {
-    id: 6,
+    id: 7,
     title: "Interstellar Link",
     description: "Interstellar Link is an single-page concept website for a futuristic space travel agency. It features a high-performance HTML5 Canvas starfield, interactive particle effects, and a CSS-only 3D planet simulation.",
     tech: ["HTML5", "CSS3", "JavaScript", "Tailwind CSS", "Canvas API 2D"],
@@ -196,7 +227,7 @@ export const PROJECTS: Project[] = [
     year: "2025"
   },
   {
-    id: 7,
+    id: 8,
     title: "SkyCast Weather App",
     description: "SkyCast is a responsive and user-friendly weather application. It fetches real-time weather data and displays it with a clean, modern interface.",
     tech: ["HTML", "CSS", "JavaScript", "OpenWeatherMap API"],
