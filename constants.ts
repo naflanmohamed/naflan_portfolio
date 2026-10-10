@@ -17,14 +17,14 @@ export const HERO_CONTENT = {
 
 export const ABOUT_CONTENT = {
   title: "About Me",
-  text: `I'm an AI Engineer and Full-Stack Developer focused on building products that blend intelligent systems with thoughtful user experiences.
+  text: `I'm an AI/ML Engineer focused on building practical AI solutions that turn complex ideas into intelligent, reliable products.
 
-I work across the full stack - from modern React interfaces to Python and Node.js backends - and I enjoy turning complex ideas into reliable, high-impact solutions. My work spans AI-powered chat systems, document intelligence, recommendation flows, and workflow automation designed to make real operations faster, smarter, and more efficient.
+I work across machine learning, LLM applications, Retrieval-Augmented Generation (RAG), and agentic AI systems, using Python and modern AI frameworks to develop solutions that can understand information, automate workflows, and solve real-world problems.
 
-I care deeply about product quality, performance, and clarity. I build systems that are easy to use, easy to scale, and grounded in real-world value, not just technical complexity.`,
+From document intelligence and AI-powered chat systems to semantic search and recommendation engines, I enjoy transforming data and emerging AI technologies into useful applications. I care about model quality, system performance, and delivering solutions that are scalable, efficient, and driven by real-world impact.`,
   stats: [
     { label: "Years Experience", value: "2+" },
-    { label: "AI + Web Projects", value: "10+" },
+    { label: "AI + Web Projects", value: "5+" },
     { label: "Impact-Driven Builds", value: "100%" },
   ]
 };
