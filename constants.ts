@@ -211,6 +211,17 @@ export const PROJECTS: Project[] = [
   },
   {
     id: 2,
+    title: "ResolveAI - AI Support Automation Platform",
+    description: "An AI-powered support ticket automation platform that combines machine learning-based ticket classification, Retrieval-Augmented Generation (RAG), and AI-assisted response drafting. Built with Python and FastAPI, it integrates document retrieval into support workflows and provides a dashboard for ticket management, human review of AI-generated drafts, analytics, authentication, and audit history.",
+    tech: ["Python", "FastAPI", "scikit-learn", "LangGraph", "RAG", "LLM", "React", "TypeScript", "SQLAlchemy", "PostgreSQL", "REST API", "Machine Learning", "AI Workflow Automation", "Render"],
+    link: "https://resolveai-web.onrender.com/",
+    github: "https://github.com/naflanmohamed/resolveai",
+    image: "/assets/images/resolveai.png",
+    category: "AI/ML",
+    year: "2026"
+  },
+  {
+    id: 3,
     title: "DocChat - Chat with Documents",
     description: "An AI-powered document chatbot that lets users upload files and ask natural language questions about their content. Uses RAG (Retrieval-Augmented Generation) to fetch relevant context before generating accurate, source-grounded answers instead of hallucinated responses.",
     tech: ["Next.js", "FastAPI", "LangChain", "OpenAI API", "Gemini API", "GrokAPI" , "Pinecone", "Tailwind CSS"],
@@ -221,7 +232,7 @@ export const PROJECTS: Project[] = [
     year: "2026"
   },
   {
-    id: 3,
+    id: 4,
     title: "Yaloo",
     description: "An AI-powered community-based tourism platform that connects solo and budget tourists with verified local guides and village hosts for authentic cultural immersion. Uses AI matching to recommend guides and experiences based on tourist preferences, computer vision for ID verification, and NLP-driven review analysis, all while supporting local economies through homestays and off-the-beaten-path experiences.",
     tech: ["Flutter", "Django REST Framework", "Supabase", "PostgreSQL", "Redis", "Celery", "Gemini API", "scikit-learn", "spaCy", "OpenCV", "Stripe"],
@@ -232,7 +243,7 @@ export const PROJECTS: Project[] = [
     year: "2026"
   },
   {
-    id: 4,
+    id: 5,
     title: "Vehicle Rental Platform",
     description: "A vehicle rental platform that allows users to browse available vehicles, view detailed information, and book easily. and includes admin features to manage fleet inventory, and update vehicle data.",
     tech: ["React.js", "Node.js", "Express.js", "MongoDB", "Tailwind CSS", "GitHub", "Vercel"],
@@ -243,7 +254,7 @@ export const PROJECTS: Project[] = [
     year: "2025"
   },
   {
-    id: 5,
+    id: 6,
     title: "AI Study Hub",
     description: "AI Study Hub helps students save time by using AI tools for summarizing, note generation, and quick learning support all in one simple interface.",
     tech: ["React.js", "Tailwind", "Gemini API",],
@@ -254,7 +265,7 @@ export const PROJECTS: Project[] = [
     year: "2025"
   },
   {
-    id: 6,
+    id: 7,
     title: "Expense Tracker",
     description: "Expense Tracker is a web application that allows users to track their expenses and manage their budgets.",
     tech: ["HTML", "CSS", "JavaScript", "Bootstrap", "Chart.js"],
